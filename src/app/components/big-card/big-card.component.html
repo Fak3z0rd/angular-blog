@@ -1,7 +1,7 @@
 <div class="big-card__container">
     <div class="big-card__image">
         <img
-            src="https://i1.wp.com/gelatologia.com/wp-content/uploads/2020/07/placeholder.png"
+            src="{{ photoCover }}"
             alt=""
             srcset=""
             height="270px"
@@ -9,15 +9,14 @@
         />
     </div>
     <div class="big-card__title">
-        <h2><a href="#">Titulo</a></h2>
+        <h2>
+            <a href="#">{{ cardTitle }}</a>
+        </h2>
     </div>
     <div class="big-card__description">
         <p>
             <a href="">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
-                nostrum doloremque facilis ut aut tempore, culpa animi iste
-                officiis rerum magni, consectetur quam sit unde impedit
-                distinctio. Officia, inventore facilis?
+                {{ cardDescription }}
             </a>
         </p>
     </div>
