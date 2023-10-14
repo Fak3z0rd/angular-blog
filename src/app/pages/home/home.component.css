@@ -10,3 +10,8 @@ div.articles__others {
     flex-direction: column;
     gap: 10px;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+}
